@@ -19,7 +19,7 @@ app.get('/my-styles.css', sassMiddleware({
   watch: true,                       // whether or not to recompile on changes,
                                      //  - defaults to false
 
-  precompile: true                   // should it be compiled on server start
+  precompile: true,                   // should it be compiled on server start
                                      // or deferred to the first request
                                      //  - defaults to false
 
