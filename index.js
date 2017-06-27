@@ -1,10 +1,10 @@
 var chokidar = require('chokidar')
 var sass = require('node-sass')
 
-var cache
 var nodeEnv = process.env.NODE_ENV || 'development'
 
 module.exports = function (config) {
+  var cache
   var watcher
   config.file = config.file || '.'
 
@@ -15,7 +15,7 @@ module.exports = function (config) {
         if (cb) {
           return cb(err)
         }
-        throw (err)
+        throw err
       }
 
       // update our cache with the newly compiled css
