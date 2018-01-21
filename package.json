@@ -1,11 +1,11 @@
 {
   "name": "express-sass-middleware",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "A lightweight middleware for express that compiles and serves SASS or SCSS",
   "main": "index.js",
   "dependencies": {
     "chokidar": "^1.6.1",
-    "node-sass": "^3.13.0"
+    "node-sass": "^4.7.0"
   },
   "devDependencies": {
     "eslint": "^3.11.1",
